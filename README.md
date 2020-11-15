@@ -9,15 +9,15 @@ This stand-alone R project is a _project_ and not an R package, largely because 
 # Setup
 ## Galleries
 This project assumes you have all galleries you want to upload in individual zipped files.  Each gallery the script creates in PhotoShelter will be named identical to the zip file name (without extension).  
-![Zip file folder structure](https://github.com/adamfrieberg/R_MigrateGalleriesToPhotoShelter/blob/master/screenshots/zip_files.png?raw=true)
+![Zip file folder structure](screenshots/zip_files.png)
 
 ## R Project
 After downloading the project and ensuring that R and all required packages are installed (newer versions of RStudio will prompt after opening the project), open the **migrate.r** file.  On line 9, specify the local directory location containing the zip files to upload; specify it in the _parent_dir_ argument.  
 
 ## Local Secrets
 The script assumes you have a local directory called **secrets**.  Within it should be a json file called **appsettings.user.json**  
-![Zip file folder structure](https://github.com/adamfrieberg/R_MigrateGalleriesToPhotoShelter/blob/master/screenshots/appsettings_location.png?raw=true) 
-![Zip file folder structure](https://github.com/adamfrieberg/R_MigrateGalleriesToPhotoShelter/blob/master/screenshots/appsettings_keys.png?raw=true)
+![Zip file folder structure](screenshots/appsettings_location.png) 
+![Zip file folder structure](screenshots/appsettings_keys.png)
 
 ## API Key
 You will need not only a PhotoShelter account, but also an API key: [Request an API Key](https://www.photoshelter.com/developer/index/register/api_key)  
